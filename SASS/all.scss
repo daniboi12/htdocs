@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap");
+@import "variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24pt;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 22pt;
+  font-family: "Montserrat", sans-serif;
+}
+
+h3{
+  font-size: 20pt;
+}
+
+h4 {
+  font-size: 18pt;
+  font-family: "Montserrat", sans-serif;
+}
+
+a,
+p,
+li {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white !important;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10rem !important;
+}
+
+.btn-primary {
+  padding: 0.5em 1em !important;
+  background-color: $accent-color !important;
+  color: #ffffff !important;
+  border: none !important;
+  cursor: pointer !important;
+  transition: all 0.3s ease 0s !important;
+
+  &:hover {
+    background-color: #f8edeb !important;
+    color: $primary-color !important;
+  }
+}

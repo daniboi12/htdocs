@@ -1,0 +1,96 @@
+.carousel-item {
+  max-height: 35rem;
+}
+.carousel-item h5 {
+  color: black;
+}
+.carousel-item p {
+  color: black;
+}
+
+.imgLinkContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.imgLinkContainer:hover a {
+  font-size: 1.5em;
+  transition: all 0.3s ease 0s;
+}
+.imgLinkContainer:hover img {
+  filter: blur(2px);
+  transition: all 0.3s ease 0s;
+}
+.imgLinkContainer img {
+  height: 100%;
+  width: 100%;
+}
+.imgLinkContainer a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.4em;
+  background-color: rgba(254, 201, 154, 0.5);
+  color: black;
+  transition: all 0.3s ease 0s;
+}
+
+.short-quote {
+  background-color: #fc9ba2;
+  color: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#longRubricContainer {
+  background-image: linear-gradient(rgba(204, 30, 88, 0.6), rgba(20, 20, 20, 0.6)), url("../images/berries-banner-grey.jpg");
+  background-size: cover;
+  min-height: 12rem;
+}
+#longRubricContainer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/4;
+  grid-row: 1;
+  font-size: 70pt;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  font-family: "Just Me Again Down Here", cursive !important;
+  color: white;
+}
+#longRubricContainer:hover {
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+#longRubricContainer:hover p {
+  font-size: 71pt;
+  transition: all 0.3s ease 0s;
+}
+
+@media (min-width: 768px) {
+  .mini-blog {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .mini-blog {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    bottom: 0;
+  }
+  .mini-blog p {
+    font-size: 12pt !important;
+  }
+}
+@media (max-width: 992px) {
+  .give-margin-top {
+    margin-top: 1rem !important;
+  }
+}/*# sourceMappingURL=index.css.map */

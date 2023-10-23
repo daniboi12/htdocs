@@ -1,0 +1,71 @@
+@import "variables";
+
+nav a,
+nav button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+header {
+  grid-row: 1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  max-height: 5rem;
+  padding: 0.5rem 2rem;
+}
+
+.navbar{
+  background-color: $primary-color;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logoImg,
+.buttonCont {
+  width: 10em;
+}
+
+.buttonCont{
+  text-align: right;
+}
+
+#navLinks {
+  list-style: none;
+}
+
+#navLinks li {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+#navLinks li a {
+  transition: all 0.3s ease 0s;
+  color: #ffffff;
+}
+
+#navLinks li a:hover {
+  color: #000000;
+  font-size: 1.2em;
+}
+
+.navButton {
+  padding: 0.4em 0.7em;
+  background-color: $accent-color;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.navButton:hover {
+  background-color: #f8edeb;
+  color: #fc9ba2;
+}

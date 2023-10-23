@@ -1,0 +1,19 @@
+footer {
+  background-color: #636363;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #F83468;
+}
+footer i {
+  color: #fc9ba2;
+}
+footer h5 {
+  color: #ffffff;
+}
+
+#socialMediaIcons li a:hover i {
+  color: #F83468 !important;
+}/*# sourceMappingURL=footer.css.map */

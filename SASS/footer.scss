@@ -1,0 +1,30 @@
+@import "variables";
+
+footer {
+  background-color: #636363;
+
+  a {
+    color: #ffffff;
+    &:hover{
+      color:$accent-color;
+    }
+  }
+
+  i {
+    color: #fc9ba2;
+  }
+
+  h5 {
+    color: #ffffff;
+  }
+}
+
+#socialMediaIcons {
+  li {
+    a:hover {
+      i{
+        color: $accent-color !important;
+      }
+    }
+  }
+}
