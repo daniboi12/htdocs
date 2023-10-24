@@ -41,7 +41,7 @@
               content. Some quick example text to build on the card title and make up the bulk of the card's
               content. Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-            <a href="./blog1.php" class="btn btn-primary shadow-sm">READ POST</a>
+            <a href="./blog-template.php" class="btn btn-primary shadow-sm">READ POST</a>
           </div>
         </div>
       </div>
